@@ -1,0 +1,192 @@
+"""
+Formula Chart in Python code. 
+Feel free to adjust input values to your liking. Enjoy :)
+Parke Lovett
+07/31/2022
+"""
+
+
+from math import pi
+from math import sqrt
+
+
+# Simple Interest Formula
+def simp_interest(p, r, t):
+    i = p * r * t
+    print(i)
+
+
+simp_interest(2, 2, 2)
+
+
+# Perimeter triangle
+def perim_tri(a, b, c):
+    p = a + b + c
+    print(p)
+
+
+perim_tri(2, 2, 2)
+
+
+# Perimeter rectangle
+def perim_rect(L, w):
+    p = 2 * (L + w)
+    print(p)
+
+
+perim_rect(2, 2)
+
+
+# Circumference circle
+def circum_circle(d):
+    c = pi * d
+    print(c)
+
+
+circum_circle(2)
+
+
+# Area rectangle
+def area_rect(L, w):
+    a = L * w
+    print(a)
+
+
+area_rect(2, 2)
+
+
+# Area parallelogram
+def area_parall(b, h):
+    a = b * h
+    print(a)
+
+
+area_parall(2, 2)
+
+
+# Area triangle
+def area_tri(b, h):
+    a = b * h / 2
+    print(a)
+
+
+area_tri(2, 2)
+
+
+# Area trapezoid
+def area_trapLOL(b, h):
+    a = (b**1 + b**2 / 2) * h
+    print(a)
+
+
+area_trapLOL(2, 2)
+
+
+# Area circle
+def area_circle(r):
+    a = pi * r**2
+    print(a)
+
+
+area_circle(2)
+
+
+# Volume rectangular prism
+def rect_prism(L, w, h):
+    v = L * w * h
+    print(v)
+
+
+rect_prism(2, 2, 2)
+
+
+# Pythagorean Theorem
+def pag_ther(a, b):
+    c = a**2 + b**2
+    c = c**2
+    print(c)
+
+
+pag_ther(2, 2)
+
+
+# Distance formula
+def dist_form(r, t):
+    d = r * t
+    print(d)
+
+
+dist_form(2, 2)
+
+
+# Direct Variation
+def direct_var(k, x):
+    y = k * x
+    print(y)
+
+
+direct_var(2, 2)
+
+
+# Inverse variation
+def inverse_var(k, x):
+    y = k / x
+    print(y)
+
+
+inverse_var(2, 2)
+
+
+# Vertex Formula
+def vertex_form(a, b):
+    f = (-b / 2 * a) * -b / 2 * a
+    print(f)
+
+
+vertex_form(2, 2)
+
+
+# Slope formula
+def slope_form(x, y):
+    m = y**2 - y**1 / x**2 - x**1
+    print(m)
+
+
+slope_form(2, 2)
+
+
+# Slope intercept of equation
+def slope_inter(m, x, b):
+    y = m * x + b
+    print(y)
+
+
+slope_inter(2, 2, 2)
+
+
+# Point slope of equation
+def point_slope(m, x):
+    y = m * (x - x**1)
+    y = y - y**1
+    print(y)
+
+
+point_slope(6, 2)
+
+
+# Standard equation form
+def stan_equa(a, b, x, y):
+    c = a * x + b * y
+    print(c)
+
+
+stan_equa(2, 2, 2, 2)
+
+
+# I wish I were high on pot enuse
+def hypotRightTri(a, b):
+    c = sqrt(a ** 2 + b ** 2)
+    print(c)
+
+
+hypotRightTri(10, 10)
